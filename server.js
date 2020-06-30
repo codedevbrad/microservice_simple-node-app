@@ -1,5 +1,5 @@
 // Set a local variable populated by the environment variable $NAME
-const FAV_INSTRUCTOR = process.env.NAME || 'instructor not set';
+const FAV_INSTRUCTOR = process.env.TESTING || 'instructor not set';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
